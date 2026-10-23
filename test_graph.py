@@ -138,11 +138,11 @@ def test_remove_loop(graph: Graph) -> None:
     ],
 )
 def test_shortest_route(
-        route_graph: Graph,
-        start: str,
-        finish: str,
-        expected_time: float,
-        expected_path: list[str],
+    route_graph: Graph,
+    start: str,
+    finish: str,
+    expected_time: float,
+    expected_path: list[str],
 ) -> None:
     """Дейкстра"""
 
